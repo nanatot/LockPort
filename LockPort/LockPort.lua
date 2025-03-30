@@ -197,7 +197,7 @@ function LockPort_NameListButton_OnClick(button)
 						if LockPortOptions.shards then
 					    	message = message .. shards_message
 						end
-						SendChatMessage(message, "SAY")
+						SendChatMessage(message, "RAID")
 
 						-- Send Whisper Message
 						if LockPortOptions.whisper then
